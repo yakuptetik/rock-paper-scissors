@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 flex>Taş Kağıt Makas Oyunu</h2>
+      <div class="tkmContPlayer">
+        <label onClick="res('rock')" id="rock" class="rps rock"> </label>
+        <label onClick="res('paper')" id="paper" class="rps paper"> </label>
+        <label onClick="res('scissor')" id="scissor" class="rps scissor">
+        </label>
+      </div>
+      <div class="result">
+        <h2 id="res" class="res"></h2>
+      </div>
+      <div class="tkmContComputer">
+        <label id="comp" class="rpsComp"> </label>
+      </div>
+    </div>
+
+    <div>
+    <p> Design by
+    <a style="text-decoration:none;" href="https://github.com/yakuptetik">Yakup Tetik</a>
+    </p>
+  </body>
+  <script src="main.js"></script>
+</html>

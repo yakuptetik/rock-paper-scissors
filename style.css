@@ -1,0 +1,66 @@
+* {
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  background: #e7f0d2;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tkmContPlayer,
+.tkmContComputer {
+  min-width: 300px;
+  display: inline-block;
+}
+
+h2 {
+  color: #37593b;
+  min-width: 300px;
+}
+
+.rps {
+  background-color: #d2ea9b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  border-radius: 50%;
+  height: 70px;
+  margin: 15px;
+  width: 70px;
+  float: left;
+}
+
+.rpsComp {
+  background-color: #d2ea9b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  border-radius: 50%;
+  height: 270px;
+  margin: 15px;
+  width: 270px;
+  float: left;
+}
+
+.rps:hover {
+  background-size: 75%;
+}
+
+.rock {
+  background-image: url("http://www.jerrylow.com/demo/rps/rock.svg");
+}
+
+.paper {
+  background-image: url("http://www.jerrylow.com/demo/rps/paper.svg");
+}
+
+.scissor {
+  background-image: url("http://www.jerrylow.com/demo/rps/scissor.svg");
+}
+
+.result {
+  min-height: 50px;
+}
