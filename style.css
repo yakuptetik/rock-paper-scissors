@@ -5,7 +5,7 @@
 
 body {
   background: #e7f0d2;
-  font-family: cursive;
+
   text-align: center;
   margin-top: 100px;
 }
@@ -22,7 +22,7 @@ h2 {
 }
 
 .rps {
-  background-color: #d2ea9b;
+  background-color: #9babea;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 65%;
@@ -31,6 +31,9 @@ h2 {
   margin: 15px;
   width: 70px;
   float: left;
+}
+:active.rps{
+  background-color: #d2ea9b;
 }
 
 .rpsComp {
@@ -50,15 +53,15 @@ h2 {
 }
 
 .rock {
-  background-image: url("http://www.jerrylow.com/demo/rps/rock.svg");
+  background-image: url("https://res.cloudinary.com/itsellej/image/upload/v1533400140/rock-paper-scissors/rock.png");
 }
 
 .paper {
-  background-image: url("http://www.jerrylow.com/demo/rps/paper.svg");
+  background-image: url("https://res.cloudinary.com/itsellej/image/upload/v1533400143/rock-paper-scissors/paper.png");
 }
 
 .scissor {
-  background-image: url("http://www.jerrylow.com/demo/rps/scissor.svg");
+  background-image: url("https://res.cloudinary.com/itsellej/image/upload/v1533400144/rock-paper-scissors/scissors.png");
 }
 
 .result {

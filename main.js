@@ -41,7 +41,7 @@ function result(x, a, res) {
     case "rock":
       if (a == "1") {
         comp.className = "rpsComp rock";
-        res.style.color = "white";
+        res.style.color = "black";
         return "Berabere";
       } else if (a == "2") {
         comp.className = "rpsComp paper";
@@ -59,7 +59,7 @@ function result(x, a, res) {
         return "Kazandın";
       } else if (a == "2") {
         comp.className = "rpsComp paper";
-        res.style.color = "white";
+        res.style.color = "black";
         return "Berabere";
       } else {
         comp.className = "rpsComp scissor";
@@ -77,7 +77,7 @@ function result(x, a, res) {
         return "Kazandın";
       } else {
         comp.className = "rpsComp scissor";
-        res.style.color = "white";
+        res.style.color = "black";
         return "Berabere";
       }
   }
